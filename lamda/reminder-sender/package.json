@@ -1,0 +1,22 @@
+{
+  "name": "line-bot-reminder-sender",
+  "version": "1.0.0",
+  "description": "LINE BOT reminder sender for scheduled notifications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.x",
+    "@aws-sdk/lib-dynamodb": "^3.x"
+  },
+  "keywords": [
+    "line-bot",
+    "reminder",
+    "aws-lambda",
+    "dynamodb",
+    "scheduler"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

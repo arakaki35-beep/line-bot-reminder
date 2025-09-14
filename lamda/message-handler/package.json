@@ -1,0 +1,21 @@
+{
+  "name": "line-bot-message-handler",
+  "version": "1.0.0",
+  "description": "LINE BOT message handler for reminder system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.x",
+    "@aws-sdk/lib-dynamodb": "^3.x"
+  },
+  "keywords": [
+    "line-bot",
+    "reminder",
+    "aws-lambda",
+    "dynamodb"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
